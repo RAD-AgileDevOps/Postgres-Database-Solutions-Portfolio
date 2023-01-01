@@ -11,4 +11,6 @@ Queries , data models and other solutions for display to current and future stak
       
 3. ERD - Entity Relational Diagram
       * demo database - here I reversee engineered an existing data model
+          * ERD_reverse_engineered.png - image showing the grapical tool in pgAdminv4 (PG14)
+
 
