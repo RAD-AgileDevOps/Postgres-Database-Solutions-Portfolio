@@ -7,3 +7,5 @@ Queries , data models and other solutions for display to current and future stak
       * pagila database -  https://github.com/devrimgunduz/pagila   
 2. Spam filter program - re: "Alex" - ported from Python and written in SQL language : **spam_email_filter_for_cyberdefense.png**
       * spam_mail_defense.sql - example database used to illustrate the code
+      * code_for_postgres_view_object.png  - a view object (virtual table)that I created withing the database to illustrate the 'spam filter' in SQL
+
