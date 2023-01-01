@@ -15,6 +15,6 @@ Queries , data models and other solutions for display to current and future stak
           * ERD_reverse_engineered.pgerd  - The actual ERD in Postgres's file formst 'pgerd'
  4. Videos - brief demonstrations, showing hands on SQL programming:
       * Postgres -INNER JOIN - part1.zip : video iluustrating how an INNER JOIN can be used to compile a data set for further analysis and reporting
-      * part2
+      * Posrgres - GROUP BY clause - a summary report generated from the dataset obtained in part1
 
 
