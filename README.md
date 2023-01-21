@@ -6,13 +6,11 @@ Contents
 =================================
 1. **Multi-thread program : oc_multithread_example.py**
 
-      In this example I created a connection pool , of one main psycopg2 adapter connection, to a Postgres database. The ThreadConnection method has parameters       for  minimum and maximum 'sub-connections 'to a postgres server.
+      In this example I created a connection pool , of one main psycopg2 adapter connection, to a Postgres database. The ThreadConnection method has parameters for  minimum and maximum 'sub-connections 'to a postgres server.
 
-2. **Visualzation of oc_multithread_example.py:**
-
-       python_multithread_demonstration.png
+2. **Visualzation of oc_multithread_example.py:**    
        
-       This is an image of a test of the code contained in oc_multithread_example.py using the monitoring tool from PgAdmin4 - the default GUI tool for a              Postgres installation.
+       This is an image of a test of the code contained in oc_multithread_example.py using the monitoring tool from PgAdmin4 - the default GUI tool for a            Postgres installation.
    
    See : **python_multithread_demonstration.png**
    
@@ -29,15 +27,12 @@ Contents
         particular position - this is a dynamic number, and so filtering the mail to spam/trash was being negated.
         
         
- 4. Malware cleanup costing - SiteLocks_costing.py
+
+  4. Personal Finance  -- OOP class
  
-      A client of mine wanted malwae cleaned ,and I had to get a suppler cost estimare, so that the client would be able to decided whether to proceed or not
+      I developed a basic class object that can be scaled to suit the requirements of a user , basically for any aditional functionality; just create a             function/method
       
- 5. Personal Finance  -- OOP class
- 
-      I developed a basic class object that can be scaled to suit the requirements of a user , basically for any anditional functionality just create a   function/method
-      
-  6. Pandas/Postgres Data Analysis - **demo_pandas_analysis.py**
+  5. Pandas/Postgres Data Analysis - **demo_pandas_analysis.py**
   
       In this scenario I connected to a Postgres RDBMS and attached it to a Pandas data frame.
       
