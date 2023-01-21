@@ -1,4 +1,4 @@
-# Python-software-engineering-Portfolio
+# Python-software-engineering-portfolio
 #2022-12-29
 Showcase of various Python examples for project work, and proof of concepts 
 
