@@ -28,7 +28,7 @@ Contents
         
         
 
-  4. Personal Finance  -- OOP class
+  4. Personal Finance : PersonalFinance.py -- OOP class
  
       I developed a basic class object that can be scaled to suit the requirements of a user , basically for any aditional functionality; just create a             function/method
       
