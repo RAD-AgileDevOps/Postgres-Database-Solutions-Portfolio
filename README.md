@@ -1,20 +1,77 @@
-# Postgres-Database-Solutions-Portfolio
-Queries , data models and other solutions for display to current and future stakeholders of RAD
-===============================================================================================================================
+# Python-data-engineering-Portfolio
+#2022-12-29
+Showcase of various Python examples for project work, and proof of concepts 
 
-1. Sample databases:
-      * demo database - https://postgrespro.com/community/demodb
-      * pagila database -  https://github.com/devrimgunduz/pagila   
-2. Spam filter program - re: "Alex" - ported from Python and written in SQL language : **spam_email_filter_for_cyberdefense.png**
-      * spam_mail_defense.sql - example database used to illustrate the code
-      * code_for_postgres_view_object.png  - a view object (virtual table)that I created withing the database to illustrate the 'spam filter' in SQL.
+Contents
+=================================
+1. **Multi-thread program : oc_multithread_example.py**
+
+      In this example I created a connection pool , of one main psycopg2 adapter connection, to a Postgres database. The ThreadConnection method has parameters       for  minimum and maximum 'sub-connections 'to a postgres server.
+
+2. **Visualzation of oc_multithread_example.py:**
+
+       This is an image of a test of the code contained in oc_multithread_example.py using the monitoring tool from PgAdmin4 - the default GUI tool for a              Postgres installation.
+   
+   See : **python_multithread_demonstration.png**
+   
+ 3. **Anti-email spam tool:** 
+            alex_spam_manager.py
+            spam_mail_defense.sql  [SQL version of script]
+            
+  
+        This was created to remedy a malware problem, that I had encountered on my work email : rogerdefour@radfinancialsystems.com.
+        The problem: an email possibly of Russian orgin is continually being sent to my email, and it required the recepient to download 
+        attachments - which I haven't done nor intend to do.
+
+        That being said, I wrote a simple program in Python to create an infinite amount of email addresses, with the digit at a 
+        particular position - this is a dynamic number, and so filtering the mail to spam/trash was being negated.
+        
+        
+ 4. Malware cleanup costing - SiteLocks_costing.py
+ 
+      A client of mine wanted malwae cleaned ,and I had to get a suppler cost estimare, so that the client would be able to decided whether to proceed or not
       
-3. ERD - Entity Relational Diagram
-      * demo database - here I reversee engineered an existing data model
-          * ERD_reverse_engineered.png - image showing the grapical tool in pgAdmin v4 (PG14)
-          * ERD_reverse_engineered.pgerd  - The actual ERD in Postgres's file formst 'pgerd'
- 4. Videos - brief demonstrations, showing hands on SQL programming:
-      * Postgres -INNER JOIN - part1.zip : video iluustrating how an INNER JOIN can be used to compile a data set for further analysis and reporting
-      * Posrgres - GROUP BY clause - a summary report generated from the dataset obtained in part1
-
-
+ 5. Personal Finance  -- OOP class
+ 
+      I developed a basic class object that can be scaled to suit the requirements of a user , basically for any anditional functionality just create a   function/method
+      
+  6. Pandas/Postgres Data Analysis - **demo_pandas_analysis.py**
+  
+      In this scenario I connected to a Postgres RDBMS and attached it to a Pandas data frame.
+      
+      There is a minor complexity added to the problem - another schema was  used in th 'demo' database; therefore a normal 
+      connection via the psycopg2 Postgres adater would't work. What was required was a further amendment to the
+      connection method - psycopg2.connection().
+      
+      After some research on internet via stackoverflow I came across further information that wasn't explicitly available in the psyocopg2 documentation
+      in the connect(); there is an '**options**' parameter, that accepts an input, to stipulate which schema the connection method can lookup.
+      
+  7. **Data Visualization : Trinidad & Tobago Stock Exchange(TTSE)**
+      
+            ttse_data_analysis.py
+            TTSE_AngostoraSharePrice_top_ten.png 
+            
+      
+     Share price of a large company (Angosturas) was downloaded from the TTSE and analysed in a Panda dataframe.
+     
+     Matplotlib(a Python Library) was then used to vizualiae the the Top and Bottom 10 share closing prices, 
+     into a Stacked Bar chart for easier comparision
+ 
+ 8. **Data Visualization II : Trinidad & Tobago Central Statistical Office (CSO)**
+      
+      A pie chart depicting the net profit of finance & mortgage entities in the local finance sctor
+      
+            T_and_T_net_profit_finance_and_mortgage.png
+            ttcso_central_bank_data_analysis.py
+            
+ 9. Data Modelling - Relational Database Management Systems(RDBMS):
+      
+            ERD_reverse_engineered.pgerd 
+            ERD_reverse_engineered.png 
+ 
+ 10. Database Querying:
+      
+            Postgres -INNER JOIN - part1.zip 
+            Postgres INNER JOIN-SummaryReport - part2.zip
+            
+           
