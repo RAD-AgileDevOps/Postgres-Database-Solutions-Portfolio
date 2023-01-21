@@ -10,6 +10,8 @@ Contents
 
 2. **Visualzation of oc_multithread_example.py:**
 
+       python_multithread_demonstration.png
+       
        This is an image of a test of the code contained in oc_multithread_example.py using the monitoring tool from PgAdmin4 - the default GUI tool for a              Postgres installation.
    
    See : **python_multithread_demonstration.png**
