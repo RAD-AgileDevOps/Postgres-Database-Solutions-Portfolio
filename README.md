@@ -71,4 +71,10 @@ Contents
             Postgres -INNER JOIN - part1.zip 
             Postgres INNER JOIN-SummaryReport - part2.zip
             
+ 11. Data Migration :
+ 
+            pgAdmin 4 2023-01-25 06-30-41.mp4
+            
+            A video illustrating use of pgAdmin GUI tool monitring the upload of 5 GB databases into Amazon Web Service(AWS) RDS - Posgresql database
+            
            
