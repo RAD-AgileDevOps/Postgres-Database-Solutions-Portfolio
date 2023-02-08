@@ -1,6 +1,6 @@
 #Software-engineering-portfolio
 #2022-12-29
-Showcase of various Python examples for project work, and proof of concepts 
+Showcase of various software written for project work, personal tasks(where programming would help solve a problem). 
 
 Contents
 =================================
